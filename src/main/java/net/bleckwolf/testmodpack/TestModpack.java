@@ -3,6 +3,7 @@ package net.bleckwolf.testmodpack;
 
 // Imports
 import net.bleckwolf.testmodpack.block.ModBlocks;
+import net.bleckwolf.testmodpack.item.ModItemGroups;
 import net.bleckwolf.testmodpack.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 import org.slf4j.Logger;
@@ -15,7 +16,11 @@ public class TestModpack implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
+		// Register Item Groups
+		ModItemGroups.registerItemGroups();
+		// Register Items
 		ModItems.registerModItems();
+		// Register Blocks
 		ModBlocks.registerModBlocks();
 
 		LOGGER.info("TestModpack initialization completed!");
