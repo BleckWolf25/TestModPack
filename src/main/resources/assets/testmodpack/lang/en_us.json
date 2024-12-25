@@ -1,4 +1,9 @@
 {
   "item.testmodpack.garnet": "Garnet",
-  "item.testmodpack.raw_garnet": "Raw Garnet"
+  "item.testmodpack.raw_garnet": "Raw Garnet",
+
+  "block.testmodpack.raw_garnet_block": "Raw Garnet Block",
+  "block.testmodpack.garnet_block": "Garnet Block"
+
+
 }

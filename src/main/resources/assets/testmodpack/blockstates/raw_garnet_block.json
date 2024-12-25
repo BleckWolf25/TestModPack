@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "testmodpack:block/raw_garnet_block"
+    }
+  }
+}
