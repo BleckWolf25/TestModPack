@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "testmodpack",
+	"version": "${version}",
+	"name": "TestModpack",
+	"description": "This is a test modpack that includes custom items, blocks, enteties, resources-packs & UI",
+	"authors": [
+		"Me!"
+	],
+	"contact": {
+		"homepage": "https://bleckwolf.net/",
+		"sources": "https://github.com/JotaRYT/fabric-test-modpack"
+	},
+	"license": "MIT",
+	"icon": "assets/testmodpack/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.bleckwolf.testmodpack.TestModpack"
+		],
+		"fabric-datagen": [
+			"net.bleckwolf.testmodpack.TestModpackDataGenerator"
+		],
+		"client": [
+			"net.bleckwolf.testmodpack.TestModpackClient"
+		]
+	},
+	"mixins": [
+		"testmodpack.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.9",
+		"minecraft": "~1.21",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
