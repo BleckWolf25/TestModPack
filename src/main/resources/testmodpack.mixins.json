@@ -3,7 +3,7 @@
 	"package": "net.bleckwolf.testmodpack.mixin",
 	"compatibilityLevel": "JAVA_21",
 	"mixins": [
-		"ExampleMixin"
+      "TestModpackMixin"
 	],
 	"injectors": {
 		"defaultRequire": 1
